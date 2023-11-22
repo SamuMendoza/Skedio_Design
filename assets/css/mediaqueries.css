@@ -1,0 +1,118 @@
+@media (max-width : 1300px) {
+    .nav-bar__container {
+        justify-content: flex-start;
+    }
+    .nav-bar__mid, .nav-bar__right {
+        display: none;
+    }
+    .bars__menu {
+        display: block;
+    }
+    .inactive {
+        display: flex;
+    }
+    .first-section__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .welcome-section, .video-section {
+        width: 90%;
+        margin: 20px 0;
+    }
+    .img__container .img__background {
+        width: 300px;
+        height: 300px;
+    }
+    .img__container .img__background img {
+        width: 190%;
+        left: -130px;
+        top: -160px;
+    }
+}
+@media (max-width : 1200px) {
+    .slider__item {
+        flex-direction: column;
+    }
+    .slider__img img {
+        width: 60%;
+    }
+    .slider__text {
+        width: 90%;
+        text-align: center;
+    }
+    .slider__text h2 {
+        font-size: 2.8rem;
+        text-align: center;
+    }
+    .slider__bullets {
+        margin-top: 30px;
+    }
+    .despegar-section .button__container a {
+        margin-top: 10px;
+    }
+}
+@media (max-width : 1070px) {
+    .second-section__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img__container {
+        padding-bottom: 400px;
+    }
+    .welcome-section .buttons__container a {
+        padding: 8px 30px;
+    }
+    .despegar-section {
+        width: 90%;
+    }
+}
+@media (max-width : 800px) {
+    :root {
+        --font-titles : 2.7rem;
+        --font-sub-titles : 1.8rem;
+        --font-paragraph : 1.1rem;
+        --font-button : 1.2rem;
+    }
+    .slider__img img {
+        width: 75%;
+    }
+    .slider__bullets {
+        margin-top: 0;
+    }
+    .img__container {
+        margin: 0px;
+    }
+    .welcome-section .buttons__container a {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .contact__container  {
+        width: 550px;
+    }
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width : 500px) {
+    :root {
+        --font-titles : 2.4rem;
+        --font-sub-titles : 1.6rem;
+        --font-paragraph : 1rem;
+        --font-button : 1rem;
+    }
+    .contact__container  {
+        width: 400px;
+    }
+}
+@media (max-width : 400px) {
+    .contact__container  {
+        width: 320px;
+    }
+     .slider__bullets {
+        margin-top: 30px;
+    }
+    .first-section__container {
+        margin-top: 100px;
+    }
+}
